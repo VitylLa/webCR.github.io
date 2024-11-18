@@ -106,120 +106,92 @@ header {
 
 /*Меню*/
 
+
 /*Калькулятор*/
-.calculator_box {
-  background-color: #c890206b;  
-  width: 500px;
-    margin: 4% auto;
-    font-family: 'Source Sans Pro', sans-serif;
-    letter-spacing: 5px;
-    font-size: 1.8rem;
+body {
+  font-size: 2.5vh;
+  top: 15%;
+  left: 40%;
+  margin: 0 auto; ;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
-.calculator {
-    padding: 20px;
-    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 1px;
-  }
-  
-  .input {
-    border: 1px solid #ddd;
-    border-radius: 1px;
-    height: 60px;
-    padding-right: 15px;
-    padding-top: 10px;
-    text-align: right;
-    margin-right: 6px;
-    font-size: 2.5rem;
-    overflow-x: auto;
-    transition: all .2s ease-in-out;
-  }
-  
-  .input:hover {
-    border: 1px solid #c890206b;
-    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-  }
-  
-  .operators div {
-    display: inline-block;
-    border: 1px solid #bbb;
-    border-radius: 1px;
-    width: 80px;
-    text-align: center;
-    padding: 10px;
-    margin: 20px 4px 10px 0;
-    cursor: pointer;
-    background-color: #c890206b;
-    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-  }
-  
-  .operators div:hover {
-    background-color: #c485086b;
-    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-color: #aaa;
-  }
-  
-  .operators div:active {
-    font-weight: bold;
-  }
-  
-  .leftPanel {
-    display: inline-block;
-  }
-  
-  .numbers div {
-    display: inline-block;
-    border: 1px solid #ddd;
-    border-radius: 1px;
-    width: 80px;
-    text-align: center;
-    padding: 10px;
-    margin: 10px 4px 10px 0;
-    cursor: pointer;
-    background-color: #c890206b;
-    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-  }
-  
-  .numbers div:hover {
-    background-color: #c78b136b;
-    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-color: #bbb;
-  }
-  
-  .numbers div:active {
-    font-weight: bold;
-  }
-  
-  div.equal {
-    display: inline-block;
-    border: 1px solid #3079ED;
-    border-radius: 1px;
-    width: 17%;
-    text-align: center;
-    padding: 127px 10px;
-    margin: 10px 6px 10px 0;
-    vertical-align: top;
-    cursor: pointer;
-    color: #FFF;
-    background-color: #4d90fe;
-    transition: all .2s ease-in-out;
-  }
-  
-  div.equal:hover {
-    background-color: #307CF9;
-    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-color: #1857BB;
-  }
-  
-  div.equal:active {
-    font-weight: bold;
-  }
- 
-/*Калькулятор*/
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+#calculator {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 5px solid #666666;
+  border-radius: 15px;
+  background-color:  #d8d1b8;
+  color: white;
+}
+
+
+.box {
+  text-align:right;
+  font-size: 2.8vh;
+  height: 3vh;
+  line-height: 3vh;
+  padding: 1em;
+  border: 2px solid #e68a00;
+  color: white;
+  border-radius: 15px;
+  background-color: black;
+}
+
+#last_operation_history {
+
+  height: 25px;
+  font-size: 2vh;
+  text-align: 2vh;
+  padding-right: 10vh;
+  color: rgb(177, 176, 176);
+  background-color: black;
+}
+
+button {
+  width:9vh;
+  height: 9vh;
+  font-weight:bold;
+  font-size: 3vh;
+  color: white;
+  background-color: #666666;
+  border-radius: 50%;
+  border: 1px solid #333333;
+}
+
+#backspace_btn {
+  background-image: url("../assets/back_remove.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 1.7em;
+}
+
+button:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+.operator { 
+  background-color: #e68a00;
+}
+
+.operator:hover { 
+  background-color: #ffd11a;
+}
+
+#equal_sign {
+  width: 100%;
+  border-radius: 15px;
+}
 /*опитаування*/
 #survey{
     max-width: 600px;
