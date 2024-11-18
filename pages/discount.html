@@ -4,7 +4,6 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="../style/style1.css">
-      <link rel="stylesheet" href="calc_style.css">
       <link rel="stylesheet" href="../style/cup_animation.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="shortcut icon" type="image/svg" href="../image/logoCO.svg">
@@ -39,39 +38,7 @@
                 </li>
                
              </ul>
-         </div>
-         <script>
-            // Set the date we're counting down to
-            var countDownDate = new Date("Dec 31, 2024 23:59:59").getTime();
-   
-            // Update the count down every 1 second
-            var x = setInterval(function() {
-   
-              // Get today's date and time
-              var now = new Date().getTime();
-   
-              // Find the distance between now and the count down date
-              var distance = countDownDate - now;
-   
-              // Time calculations for days, hours, minutes and seconds
-              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-   
-              // Display the result in the elements with class="countdown-time"
-              document.querySelector(".days").innerHTML = days;
-              document.querySelector(".hours").innerHTML = hours;
-              document.querySelector(".minutes").innerHTML = minutes;
-              document.querySelector(".seconds").innerHTML = seconds;
-   
-              // If the count down is over, write some text 
-              if (distance < 0) {
-                clearInterval(x);
-                document.querySelector(".countdown").innerHTML = "EXPIRED";
-              }
-            }, 1000);
-         </script>
+           </div>
           </div>
          </nav>
       <div class="g-linen"></div>
@@ -200,7 +167,7 @@
       </div>
       <div class="g-linen"></div>
       <footer class="bg-dark text-white text-center py-3">
-         <p>&copy; 2024 Смаковитий оазис. Усі права захищені.</p>
+         <p>&copy; 2023 Смаковитий оазис. Усі права захищені.</p>
       </footer>
       <!-- Посилання на Bootstrap JS та Popper.js (потрібно для взаємодії з Bootstrap) -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
