@@ -111,7 +111,7 @@ body {
   font-size: 2.5vh;
   top: 15%;
   left: 40%;
-  margin: 0 auto;
+  margin: 0 auto; ;
   background-color: black;
   font-family: 'Roboto', sans-serif;
 }
@@ -123,18 +123,16 @@ h1 {
 }
 
 #calculator {
-  width: central;
-  height: 50vh;
-  padding: 1.5vh;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
   border: 5px solid #666666;
   border-radius: 15px;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  background-color:  #d8d1b8;
+  color: white;
 }
+
 
 .box {
   text-align:right;
@@ -149,10 +147,11 @@ h1 {
 }
 
 #last_operation_history {
-  height: 1.8vh;
-  font-size: 1.8vh;
-  text-align:right;
-  padding-right: 1.5vh;
+
+  height: 25px;
+  font-size: 2vh;
+  text-align: 2vh;
+  padding-right: 10vh;
   color: rgb(177, 176, 176);
   background-color: black;
 }
@@ -180,11 +179,11 @@ button:hover {
   cursor: pointer;
 }
 
-.operator {
+.operator { 
   background-color: #e68a00;
 }
 
-.operator:hover {
+.operator:hover { 
   background-color: #ffd11a;
 }
 
